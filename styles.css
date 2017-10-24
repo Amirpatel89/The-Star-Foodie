@@ -1,6 +1,7 @@
 #map{
     height: 1000px;
     /*display: none;*/
+    /*visibility: hidden;*/
     
 }
 #bgvid{
@@ -22,10 +23,9 @@
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%,-50%) rotate(-45deg);
     transform: translate(-50%,-50%) rotate(-45deg);
     width: 70vw;
-    z-index: 1
+    z-index: 0;
 }
 .overlay-content{
     margin: 0 auto;
@@ -36,7 +36,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    z-index: 2;
+    z-index: 0;
 }
 .slogan{
     color: white;
@@ -57,11 +57,11 @@ footer{
     top: auto;
     bottom: 0;
     left: 0;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     background-color: rgba(0,0,0,0.9);
     padding: 0;
-    z-index: 2;
+    z-index: 0;
     margin-top: -5px;
 
 }
@@ -105,4 +105,39 @@ p{
     height: 200px;
     width: 100%;
     color:  gold;   
+}
+.review-of-restaurant{
+    color:  black;
+    background-color: #FBAC3D;
+}
+.please-enable{
+    color: #FBAC3D;
+}
+.review-header{
+    color:  gold;
+    background-color: black;
+    text-align: center;
+    font-size: 44px;
+}
+.review-of-restaurant{
+    color: #FBAC3D;
+    background-color:  black;
+    text-align: center;
+}
+#map2{
+    height:  400px; 
+}
+
+#floating-panel {
+position: absolute;
+top: 10px;
+left: 25%;
+z-index: 5;
+background-color: #fff;
+padding: 5px;
+border: 1px solid #999;
+text-align: center;
+font-family: 'Roboto','sans-serif';
+line-height: 30px;
+padding-left: 10px;
 }
