@@ -10,7 +10,7 @@ the app will then locate and return all restaurants in a set radius with a four 
 the user will have the choice to search through the list of restaurants until they find one of intrest and then get directions to the resturant.
 
 execution:
-After collecting geolocation, we are provided a location for the user in the form of lat/long cordinates.  Google requires these cordinates to be in their own syntax.  Then the user location will appear on the map.  We used google's places API to make an array that can be cycled through to show different restaurants within our radius.  We used other details from this API to add rating, reviews, and a picture.  Pressing Get Directions can allow you to find a route from your location to your desired restaurant.
+After collecting geolocation, we are provided a location for the user in the form of lat/long cordinates.  Google requires these cordinates to be in their own syntax.  Then the user location will appear on the map.  We used google's places API to make an array that can be cycled through to show different restaurants within our radius.  We used other details from this API to add rating, reviews, and a picture.  Pressing Get Directions can allow you to find a route from your location to your desired restaurant. The new map will show up in a modal because we didn't want two maps on one page.
 
 Team Members:
 Akil
